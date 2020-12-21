@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JaleelHoldings
+Bundle-SymbolicName: JaleelHoldings
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: JaleelHoldings.jar,
+ WebContent/WEB-INF/lib/javax.servlet-3.1.jar,
+ WebContent/WEB-INF/lib/sqljdbc41.jar
+Export-Package: com.microsoft.sqlserver.jdbc,
+ com.newgen.Database,
+ com.newgen.servlet,
+ javax.servlet,
+ javax.servlet.annotation,
+ javax.servlet.descriptor,
+ javax.servlet.http,
+ microsoft.sql
