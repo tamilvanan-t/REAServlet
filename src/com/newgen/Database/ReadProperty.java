@@ -10,11 +10,6 @@
  */
 package com.newgen.Database;
 
-/**
- *
- * @author sapan.khandelwal
- */
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Properties;
@@ -41,7 +36,8 @@ public class ReadProperty {
 
     public static Properties read() {
        // String userDIR = System.getProperty("user.dir");
-    	String userDIR="C:\\newgen\\jboss-eap-7.0\\bin";
+    	//String userDIR="C:\\newgen\\jboss-eap-7.0\\bin";
+    	String userDIR="C:\\Users\\tprav\\Downloads\\Compressed\\REA Code\\Code";
         System.out.println("[USER DIRECTORY]::::::::::" + userDIR);
         Properties prop = new Properties();
         
